@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { MdEmail, MdSend } from 'react-icons/md'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -35,13 +37,13 @@ const Contact: React.FC = () => {
             </p>
             <div className="contact-details">
               <div className="contact-item">
-                <span className="contact-icon" aria-hidden="true">📧</span>
+                <MdEmail className="contact-icon" aria-hidden="true" />
                 <a href="mailto:rafaela@exemplo.com" aria-label="Enviar email para rafaela@exemplo.com">
                   rafaela@exemplo.com
                 </a>
               </div>
               <div className="contact-item">
-                <span className="contact-icon" aria-hidden="true">💼</span>
+                <FaLinkedin className="contact-icon" aria-hidden="true" />
                 <a 
                   href="https://linkedin.com/in/rafaela-rodrigues" 
                   target="_blank" 
@@ -52,7 +54,7 @@ const Contact: React.FC = () => {
                 </a>
               </div>
               <div className="contact-item">
-                <span className="contact-icon" aria-hidden="true">🐙</span>
+                <FaGithub className="contact-icon" aria-hidden="true" />
                 <a 
                   href="https://github.com/rafaela-rodrigues" 
                   target="_blank" 
@@ -105,6 +107,7 @@ const Contact: React.FC = () => {
               ></textarea>
             </div>
             <button type="submit" className="submit-btn" aria-describedby="submit-help">
+              <MdSend className="btn-icon" />
               Enviar Mensagem
             </button>
             <p id="submit-help" className="sr-only">
