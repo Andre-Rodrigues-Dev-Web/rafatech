@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
       ecommerce: (
         <svg viewBox="0 0 200 120" className="project-image" role="img" aria-label="Ícone de e-commerce">
           <rect width="200" height="120" fill="#f3f4f6"/>
-          <rect x="20" y="20" width="160" height="80" fill="#6366f1" rx="8"/>
+          <rect x="20" y="20" width="160" height="80" fill="#32D99C" rx="8"/>
           <circle cx="60" cy="60" r="15" fill="#fff"/>
           <rect x="85" y="45" width="80" height="8" fill="#fff" rx="4"/>
           <rect x="85" y="60" width="60" height="6" fill="#e5e7eb" rx="3"/>
@@ -52,7 +52,7 @@ const Projects: React.FC = () => {
       taskmanager: (
         <svg viewBox="0 0 200 120" className="project-image" role="img" aria-label="Ícone de gerenciador de tarefas">
           <rect width="200" height="120" fill="#f3f4f6"/>
-          <rect x="20" y="20" width="160" height="80" fill="#10b981" rx="8"/>
+          <rect x="20" y="20" width="160" height="80" fill="#32D99C" rx="8"/>
           <rect x="40" y="35" width="120" height="6" fill="#fff" rx="3"/>
           <rect x="40" y="50" width="100" height="6" fill="#d1fae5" rx="3"/>
           <rect x="40" y="65" width="80" height="6" fill="#d1fae5" rx="3"/>
@@ -64,7 +64,7 @@ const Projects: React.FC = () => {
       weather: (
         <svg viewBox="0 0 200 120" className="project-image" role="img" aria-label="Ícone de dashboard meteorológico">
           <rect width="200" height="120" fill="#f3f4f6"/>
-          <rect x="20" y="20" width="160" height="80" fill="#0ea5e9" rx="8"/>
+          <rect x="20" y="20" width="160" height="80" fill="#32D99C" rx="8"/>
           <circle cx="70" cy="50" r="20" fill="#fbbf24"/>
           <path d="M110 65 Q120 55 130 65 Q140 55 150 65 Q140 75 130 65 Q120 75 110 65" fill="#fff"/>
           <rect x="40" y="80" width="15" height="3" fill="#fff" rx="1"/>
